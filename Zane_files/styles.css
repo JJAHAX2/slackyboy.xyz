@@ -1,0 +1,35 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+*{box-sizing:border-box}
+#container{position:absolute;
+top:0;
+right:0;
+bottom:0;
+left:0;overflow:hidden;
+z-index:-99}::selection{background:rgba(68, 2, 2, 0.4);
+text-shadow:3px 0 1px #eeff0045, -3px 0 1px #ff00f248;
+color:#7289da}::-moz-selection{background:rgba(0,0,0,0.4);
+text-shadow:3px 0 1px #ff00f248, -3px 0 1px #eeff0045;
+color:#7289da}
+#background{background:no-repeat center center fixed;
+background-image:url("https://lh3.google.com/u/2/d/1EV3fKwKGeI7nEeceFHSN_BKeJ448rHDG=w1920-h1068-iv1");
+background-color:#2c2f33 ;
+background-size:cover;
+background-position:center;
+width:100%;
+height:100%;
+filter:blur(2px) brightness(100%);
+-webkit-filter:blur(2px) brightness(100%);
+-moz-filter:blur(2px) brightness(30%);
+-o-filter:blur(2px) brightness(30%);
+transform:scale(1.1);
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover}
+#main{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);z-index:2;width:50%;text-align:center;color:#d6d6d6}#main h1{font-size:2.2em}#main h4{font-size:1.1em}#main h1,#main h4{padding:0;margin:0;font-family:Quicksand, sans-serif;font-weight:100}#main ul{padding:0}#main ul li{display:inline-block;
+list-style-type:none}#main ul li a{text-decoration:none;position:relative;
+display:block;
+overflow:hidden;
+text-align:center;
+white-space:nowrap}
+#main ul li a i{padding-left:5px;padding-right:5px;font-size:2em;color:#7289da}
